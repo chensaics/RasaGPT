@@ -16,4 +16,10 @@ intent + entity: 使用大模型 Prompt给出 intent和 entity分别是什么
   }
 
 
+逻辑：
+  如果数据 intent list，输出intent对应的回复
+  如果不在意图范围内，LLM给出自己的回复
+  （可以根据上下文）
+
+
 
